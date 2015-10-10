@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
+point.h
+/home/yako/projects/l3_cpp_tp3/point.h
+
+/home/yako/projects/l3_cpp_tp3/point.h
+iostream
+-
+
+/home/yako/projects/l3_cpp_tp3/segment.cpp
+segment.h
+/home/yako/projects/l3_cpp_tp3/segment.h
+
+/home/yako/projects/l3_cpp_tp3/segment.h
+figuregeometrique.h
+/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
+
