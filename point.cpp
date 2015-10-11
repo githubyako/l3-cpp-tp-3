@@ -23,6 +23,10 @@ Point::~Point()
 {
 }
 
+Otherpoint::Otherpoint():Point()
+{
+  Point prout;
+}
 // -----------GETTERS-----------
 
 int Point::getx()
@@ -35,3 +39,14 @@ int Point::gety()
   return y;
 }
 
+// ------- SETTERS -------------
+
+void Point::setx(int _x)
+{
+  x = _x;
+}
+
+void Point::sety(int _y)
+{
+  y = _y;
+}

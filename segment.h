@@ -2,17 +2,18 @@
 #define SEGMENT_H
 #include "figuregeometrique.h"
 
-class Segment:public virtual FigureGeometrique, public virtual Point
+class Segment:public FigureGeometrique, public Otherpoint
 {
-  FigureGeometrique * originfig;
-  Point * destinationpoint;
+protected:
+  //FigureGeometrique & originfig;
+  //Point & destinationpoint;
   
 public:
   Segment();
-  //Segment(FigureGeometrique& _fig, Point& _destpoint);
+  //Segment(FigureGeometrique & _fig, Point & _destpoint);
   //Segment(Segment& _originseg);
 
-  
+
 };
 
 

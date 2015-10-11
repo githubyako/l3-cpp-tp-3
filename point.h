@@ -16,7 +16,13 @@ public:
   ~Point();
   int getx();
   int gety();
+  void setx(int _x);
+  void sety(int _y);
 };
 
-//struct Otherpoint : Point{};
+struct Otherpoint : public virtual Point
+{
+public:
+  Otherpoint();
+};
 #endif

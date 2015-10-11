@@ -10,6 +10,8 @@ public:
   FigureGeometrique(Point const & _originpoint, unsigned int _color);
   FigureGeometrique(FigureGeometrique const & _sourcefigure);
   ~FigureGeometrique();
+  int getcolor();
+  void setcolor(int _newcolor);
 };
 
 #endif

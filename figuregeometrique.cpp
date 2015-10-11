@@ -17,8 +17,24 @@ FigureGeometrique::FigureGeometrique(const FigureGeometrique& _sourcefigure):Poi
 {
   cout << "Built FigureGeometrique from copy constructor. Coords are x=" << x << ", y=" << y << ", color index is " << colorindex << ".\n";
 }
+// --------- GETTERS ----------
+
+int FigureGeometrique::getcolor()
+{
+  return colorindex;
+}
+
+
+
+// --------- SETTERS ----------
+
+void FigureGeometrique::setcolor(int _newcolor)
+{
+  colorindex = _newcolor;
+}
 
 FigureGeometrique::~FigureGeometrique()
 {
 
 }
+
