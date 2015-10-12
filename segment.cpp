@@ -1,24 +1,26 @@
 #include "segment.h"
 // ---------- CONSTRUCTEURS-----------------
 
-Segment::Segment():FigureGeometrique(), Otherpoint()
+Segment::Segment():FigureGeometrique(), destpoint()
 {
   //originfig = new FigureGeometrique();
   //destinationpoint = new Point();
   cout << "Built Segment from default constructor.\nCoords are [x1=0 ,y1=0 ; x2=0, y2=0], color index is 0\n";
 }
-/*
-Segment::Segment(FigureGeometrique & _fig, Point & _destpoint)
+
+Segment::Segment(Point& _originpoint, Point& _destpoint, unsigned int _colorindex):FigureGeometrique(_originpoint,_colorindex),destpoint(_destpoint)
 {
-  originfig = _fig;
-  destinationpoint = _destpoint;
-  destinationpoint.setx(_destpoint.getx());
-  destinationpoint.setx(_destpoint.getx());
-  cout << "Built Segment from specifier constructor.\nCoords are [x1=" << originfig.getx() << ", y1=" << originfig.gety();
-  cout << "; x2=" << destinationpoint.getx() << ", y2=" << destinationpoint.gety() << "], color index is " << originfig.getcolor() << ".\n";
+  cout << "Built Segment from specifier constructor.\nCoords are [x1=" << _originpoint.getx() << ", y1=" << _originpoint.gety();
+  cout << "; x2=" << destpoint.getx() << ", y2=" << destpoint.gety() << "], color index is " << _colorindex << ".\n";
+
 }
 
-Segment::Segment(Segment& _originseg)
-{
 
+/*Segment::Segment(Segment& _originseg):destpoint(_originseg.destpoint)
+{
 }*/
+
+Segment::~Segment()
+{
+  cout << "Destructeur de Segment appelé \n";
+}

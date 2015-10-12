@@ -20,9 +20,4 @@ public:
   void sety(int _y);
 };
 
-struct Otherpoint : public virtual Point
-{
-public:
-  Otherpoint();
-};
 #endif

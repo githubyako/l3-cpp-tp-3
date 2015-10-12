@@ -1,6 +1,9 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x14\x00l\x003\x00_\x00c\x00p\x00p\x00_\x00t\x00p\x003)
+
 [CMake]
-Build Directory Count=1
-Current Build Directory Index=0
+Build Directory Count=2
+Current Build Directory Index=1
 ProjectRootRelative=./
 
 [CMake][CMake Build Directory 0]
@@ -10,6 +13,14 @@ CMake Binary=file:///usr/bin/cmake
 Environment Profile=
 Extra Arguments=
 Install Directory=
+
+[CMake][CMake Build Directory 1]
+Build Directory Path=file:///home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
 
 [Defines And Includes][Compiler]
 Name=GCC

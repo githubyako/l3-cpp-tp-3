@@ -15,7 +15,9 @@ int main(int argc, char **argv) {
     
     cout << "\n Tests des constructeurs de segment... \n\n";
     
-    Segment seg1;
-    //Segment seg2(fig2,ptC);
+    //Segment seg1;
+    Segment seg2(ptA,ptB,2);
+    Segment seg3=seg2;
+    cout << "\n\n";
     return 0;
 }

@@ -21,12 +21,9 @@ Point::Point(const Point& _sourcepoint):x(_sourcepoint.x),y(_sourcepoint.y)
 
 Point::~Point()
 {
+  cout << "Destructeur de Point appelé\n";
 }
 
-Otherpoint::Otherpoint():Point()
-{
-  Point prout;
-}
 // -----------GETTERS-----------
 
 int Point::getx()

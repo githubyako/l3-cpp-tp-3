@@ -6,11 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/yako/projects/l3_cpp_tp3/point.cpp
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.h
 point.h
-/home/yako/projects/l3_cpp_tp3/point.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/point.h
 
-/home/yako/projects/l3_cpp_tp3/point.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/main.cpp
 iostream
 -
+point.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/point.h
+figuregeometrique.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.h
+segment.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/segment.h
+
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/point.h
+iostream
+-
+
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/segment.cpp
+segment.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/segment.h
+
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/segment.h
+figuregeometrique.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.h
 

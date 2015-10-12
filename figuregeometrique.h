@@ -1,10 +1,11 @@
 #ifndef FIGUREGEOMETRIQUE_H
 #define FIGUREGEOMETRIQUE_H
 #include "point.h"
-class FigureGeometrique: public virtual Point
+class FigureGeometrique
 {
 protected:
   unsigned int colorindex;
+  Point originpoint;
 public:
   FigureGeometrique();
   FigureGeometrique(Point const & _originpoint, unsigned int _color);
