@@ -9,7 +9,7 @@ protected:
 public:
   Segment();
   Segment(Point & _originpoint, Point & _destpoint, unsigned int _colorindex);
-  //Segment(Segment& _originseg);
+  Segment(Segment& _originseg);
   
   
   ~Segment();
