@@ -1,9 +1,7 @@
-#include <iostream>
-#include "point.h"
-#include "figuregeometrique.h"
 #include "segment.h"
 #include "triangle.h"
 #include "rectangle.h"
+#include "texte.h"
 
 int main(int argc, char **argv) {
     cout << "Tests des constructeurs de point... \n\n";
@@ -14,6 +12,7 @@ int main(int argc, char **argv) {
     Point ptE(5,10);
     Point ptF(20,10);
     Point ptG(20,5);
+    
     cout << "\n Tests des constructeurs de figure geom... \n\n";
     FigureGeometrique fig1;
     FigureGeometrique fig2(ptB,3);
@@ -33,8 +32,19 @@ int main(int argc, char **argv) {
     
     cout << "\n Tests des constructeurs de rectangle... \n\n";
     
-    //Rectangle rec1;
-    Rectangle rec2(ptD,ptE,ptF,ptG,3);
+    Rectangle rec1;
+    Rectangle rec2(ptD,5,6,3);
+    Rectangle rect3(rec2);
+        
+    cout << "\n Tests des constructeurs de texte... \n\n";
+    
+    Texte text1;
+    Texte text2(ptE,4,"string de text2 ouais ouais");
+    Texte text3(text2);
+    
+    cout << "\n Tests de la méthode afficher.. \n\n";
+    
+    text2.afficher();    
     cout << "\n\n";
     return 0;
 }

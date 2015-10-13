@@ -38,3 +38,10 @@ FigureGeometrique::~FigureGeometrique()
   cout << "Destructeur de FigureGeometrique appelé\n";
 }
 
+// METHODES
+
+void FigureGeometrique::afficher()
+{
+  cout << typeid().name() << " d'origine [" << originpoint.getx() << "," << originpoint.gety() << "], de couleur " << colorindex ;
+}
+

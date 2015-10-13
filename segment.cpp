@@ -1,4 +1,5 @@
 #include "segment.h"
+
 // ---------- CONSTRUCTEURS-----------------
 
 Segment::Segment():FigureGeometrique(), destpoint()
@@ -27,4 +28,12 @@ Segment::Segment(Segment& _originseg):FigureGeometrique(_originseg.originpoint, 
 Segment::~Segment()
 {
   cout << "Destructeur de Segment appelé \n";
+}
+
+
+// METHODES
+
+void Segment::afficher()
+{
+
 }

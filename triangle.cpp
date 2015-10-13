@@ -30,3 +30,10 @@ Triangle::~Triangle()
 {
   cout << "Destructeur de Triangle appelé.\n";
 }
+
+// METHODES
+
+void Triangle::afficher()
+{
+
+}

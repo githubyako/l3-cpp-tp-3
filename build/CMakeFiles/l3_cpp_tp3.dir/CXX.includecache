@@ -6,21 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
-point.h
-/home/yako/projects/l3_cpp_tp3/point.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.cpp
+figuregeometrique.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.h
 
-/home/yako/projects/l3_cpp_tp3/point.h
-iostream
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.h
+point.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/point.h
+typeinfo
 -
 
-/home/yako/projects/l3_cpp_tp3/rectangle.cpp
-rectangle.h
-/home/yako/projects/l3_cpp_tp3/rectangle.h
-
-/home/yako/projects/l3_cpp_tp3/rectangle.h
-point.h
-/home/yako/projects/l3_cpp_tp3/point.h
-figuregeometrique.h
-/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/point.h
+iostream
+-
 

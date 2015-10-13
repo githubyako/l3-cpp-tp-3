@@ -1,6 +1,5 @@
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
-#include "point.h"
 #include "figuregeometrique.h"
 
 class Triangle:public FigureGeometrique
@@ -13,25 +12,11 @@ public:
   Triangle(Point & _originpoint, Point & _sommet2, Point & _sommet3, unsigned int _colorindex);
   Triangle(Triangle & _tri);
   
+  void afficher();
+  
   ~Triangle();
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #endif
+
+

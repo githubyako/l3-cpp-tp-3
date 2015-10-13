@@ -1,4 +1,5 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
+  "CMakeFiles/l3_cpp_tp3.dir/texte.cpp.o"
   "CMakeFiles/l3_cpp_tp3.dir/rectangle.cpp.o"
   "CMakeFiles/l3_cpp_tp3.dir/triangle.cpp.o"
   "CMakeFiles/l3_cpp_tp3.dir/segment.cpp.o"
@@ -10,6 +11,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/l3_cpp_tp3.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/l3_cpp_tp3.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

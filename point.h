@@ -6,8 +6,8 @@ using namespace std;
 class Point{
 
 protected:
-  unsigned int x;
-  unsigned int y;
+  int x;
+  int y;
   
 public:
   Point();
