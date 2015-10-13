@@ -18,6 +18,8 @@ public:
   int gety();
   void setx(int _x);
   void sety(int _y);
+  void afficher();
+  void translation(Point& _vector);
 };
 
 #endif

@@ -31,5 +31,12 @@ Texte::~Texte()
 
 void Texte::afficher()
 {
+  cout << "Type texte. ";
+  FigureGeometrique::afficher();
+  cout << "Texte contenu: '"<< txt << "'.\n";
+}
 
+void Texte::translation(Point& _vector)
+{
+  FigureGeometrique::translation(_vector);
 }

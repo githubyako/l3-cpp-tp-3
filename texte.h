@@ -11,6 +11,7 @@ public:
   Texte(Point & _originpt, unsigned int _colorindex, const string & _txt);
   Texte(Texte & _texte);
   void afficher();
+  void translation(Point& _vector);
   
   
   ~Texte();

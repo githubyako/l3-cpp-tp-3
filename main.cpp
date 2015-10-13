@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
     Rectangle rec1;
     Rectangle rec2(ptD,5,6,3);
     Rectangle rect3(rec2);
-        
+    Rectangle rec4(ptG,7,7,5);    
     cout << "\n Tests des constructeurs de texte... \n\n";
     
     Texte text1;
@@ -44,7 +44,28 @@ int main(int argc, char **argv) {
     
     cout << "\n Tests de la méthode afficher.. \n\n";
     
-    text2.afficher();    
+    ptE.afficher();
+    text2.afficher();
+    tri3.afficher();
+    seg2.afficher();
+    rec2.afficher();
+    
+    cout << "Test de la méthode memeOrigine\n\n";
+    
+    cout << text1.memeOrigine(seg3) << "\n";
+    cout << rec2.memeOrigine(text3) << "\n";
+    
+    cout << "Test de la méthode translation\n\n";
+    
+    rec2.afficher();
+    rec2.translation(ptG);
+    rec2.afficher();
+    
+    cout << "Test de la méthode estcarré\n\n";
+    
+    cout << rec2.estcarre() << "\n";
+    cout << rec4.estcarre() << "\n";
+    
     cout << "\n\n";
     return 0;
 }

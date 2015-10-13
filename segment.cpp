@@ -35,5 +35,16 @@ Segment::~Segment()
 
 void Segment::afficher()
 {
+  cout << "Type segment. ";
+  FigureGeometrique::afficher();
+  cout << "Coords are [x1=" << originpoint.getx() << ", y1=" << originpoint.gety();
+  cout << "; x2=" << destpoint.getx() << ", y2=" << destpoint.gety() << "].\n";
+}
+
+void Segment::translation(Point& _vector)
+{
+  FigureGeometrique::translation(_vector);
+  destpoint.setx(destpoint.getx()+_vector.getx());
+  destpoint.sety(destpoint.gety()+_vector.gety());
 
 }

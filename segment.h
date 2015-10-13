@@ -11,7 +11,7 @@ public:
   Segment(Point & _originpoint, Point & _destpoint, unsigned int _colorindex);
   Segment(Segment& _originseg);
   void afficher();
-  
+  void translation(Point& _vector);
   ~Segment();
 
 };

@@ -42,6 +42,19 @@ FigureGeometrique::~FigureGeometrique()
 
 void FigureGeometrique::afficher()
 {
-  cout << typeid().name() << " d'origine [" << originpoint.getx() << "," << originpoint.gety() << "], de couleur " << colorindex ;
+  cout << "Point d'origine [" << originpoint.getx() << "," << originpoint.gety() << "], de couleur " << colorindex << ".\n";
 }
 
+bool FigureGeometrique::memeOrigine(FigureGeometrique& _fig2)
+{
+  if (originpoint.getx()==_fig2.originpoint.getx() && originpoint.gety()==_fig2.originpoint.gety())
+    return true;
+  else
+    return false;
+}
+
+void FigureGeometrique::translation(Point& _vector)
+{
+  originpoint.setx(originpoint.getx()+_vector.getx());
+  originpoint.sety(originpoint.gety()+_vector.gety());
+}

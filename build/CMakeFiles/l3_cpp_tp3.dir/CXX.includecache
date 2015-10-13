@@ -6,17 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.cpp
-figuregeometrique.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.h
-
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/figuregeometrique.h
+/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
 point.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/point.h
+/home/yako/projects/l3_cpp_tp3/point.h
 typeinfo
 -
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp-3/point.h
+/home/yako/projects/l3_cpp_tp3/main.cpp
+segment.h
+/home/yako/projects/l3_cpp_tp3/segment.h
+triangle.h
+/home/yako/projects/l3_cpp_tp3/triangle.h
+rectangle.h
+/home/yako/projects/l3_cpp_tp3/rectangle.h
+texte.h
+/home/yako/projects/l3_cpp_tp3/texte.h
+
+/home/yako/projects/l3_cpp_tp3/point.h
 iostream
 -
+
+/home/yako/projects/l3_cpp_tp3/rectangle.cpp
+rectangle.h
+/home/yako/projects/l3_cpp_tp3/rectangle.h
+
+/home/yako/projects/l3_cpp_tp3/rectangle.h
+figuregeometrique.h
+/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
+
+/home/yako/projects/l3_cpp_tp3/segment.h
+figuregeometrique.h
+/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
+
+/home/yako/projects/l3_cpp_tp3/texte.h
+figuregeometrique.h
+/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
+
+/home/yako/projects/l3_cpp_tp3/triangle.h
+figuregeometrique.h
+/home/yako/projects/l3_cpp_tp3/figuregeometrique.h
 

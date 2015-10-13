@@ -13,7 +13,7 @@ public:
   Triangle(Triangle & _tri);
   
   void afficher();
-  
+  void translation(Point& _vector);
   ~Triangle();
 };
 

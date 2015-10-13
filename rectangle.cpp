@@ -40,5 +40,28 @@ Rectangle::~Rectangle()
 
 void Rectangle::afficher()
 {
+  cout << "Type rectangle. ";
+  FigureGeometrique::afficher();
+  cout << "Coords are [x1=" << originpoint.getx() << ", y1=" << originpoint.gety();
+  cout << "; x2=" << sommet2.getx() << ", y2=" << sommet2.gety() << "; x3=" << sommet3.getx() << ", y3=" << sommet3.gety();
+  cout << "; x3=" << sommet4.getx() << ", y4=" << sommet4.gety() << "]\n";
+}
 
+void Rectangle::translation(Point& _vector)
+{
+  FigureGeometrique::translation(_vector);  
+  sommet2.setx(sommet2.getx()+_vector.getx());
+  sommet2.sety(sommet2.gety()+_vector.gety());
+  sommet3.setx(sommet3.getx()+_vector.getx());
+  sommet3.sety(sommet3.gety()+_vector.gety());
+  sommet4.setx(sommet4.getx()+_vector.getx());
+  sommet4.sety(sommet4.gety()+_vector.gety());
+}
+
+bool Rectangle::estcarre()
+{
+  if((sommet2.getx()-originpoint.getx())==(originpoint.gety()-sommet4.gety()))
+    return true;
+  else
+    return false;
 }

@@ -13,6 +13,8 @@ public:
   Rectangle(Point & _originpoint, unsigned int largeur, unsigned int hauteur, unsigned int _colorindex);
   Rectangle(Rectangle & _rec);
   void afficher();
+  void translation(Point& _vector);
+  bool estcarre();
   ~Rectangle();
 };
 

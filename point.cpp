@@ -47,3 +47,14 @@ void Point::sety(int _y)
 {
   y = _y;
 }
+
+void Point::afficher()
+{
+  cout << "Type point. Coords are [x=" << getx() << ", y=" << gety() << "].\n";
+}
+
+void Point::translation(Point& _vector)
+{
+  setx(getx()+_vector.getx());
+  sety(gety()+_vector.gety());
+}

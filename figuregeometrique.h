@@ -17,7 +17,8 @@ public:
   int getcolor();
   void setcolor(int _newcolor);
   void afficher();
-  void prout();
+  bool memeOrigine(FigureGeometrique & _fig2);
+  void translation(Point & _vector);
 };
 
 #endif
